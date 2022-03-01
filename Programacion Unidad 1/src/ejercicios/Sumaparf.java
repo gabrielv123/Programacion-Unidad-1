@@ -1,0 +1,29 @@
+package evaluacion1;
+
+import java.util.Scanner;
+
+public class Sumaparf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		int n , p = 1 ;
+		
+		Scanner teclado;
+		teclado = new Scanner(System.in);
+		
+		System.out.println("escribe un numero ");
+		n = teclado.nextInt();
+		
+		
+		while (p <= 50) {
+			
+			System.out.println(p);
+			
+			p=p+1;
+
+	}
+
+
+}
+}

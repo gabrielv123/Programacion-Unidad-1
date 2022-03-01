@@ -1,0 +1,36 @@
+package evaluacion1;
+
+import java.util.Scanner;
+
+public class Sacapadw1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n , p = 0 ;
+		
+		Scanner teclado;
+		teclado = new Scanner(System.in);
+		
+		System.out.println("escribe un numero ");
+		n = teclado.nextInt();
+		
+		if ((n%2)==0) {
+			p =n;
+		}
+		
+		else {
+			p=n-1;
+		}
+		
+		while (p >= 0) {
+			
+			System.out.println(p);
+			
+			p=p-2;
+			
+
+	}
+
+}
+}
